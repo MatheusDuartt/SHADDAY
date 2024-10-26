@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHADDAY</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div class="claro-escuro">
+        <input type="radio">
+    </div>
+    <div class="container">
+        <h1>SHADDAY </h1>
+
+        <form class="forms">
+            <header>
+                <div class="data">
+                    <span id="dia">00</span>
+                    <span id="mês">00</span>
+                    <span id="ano">0000</span>
+
+                </div>
+                <div class="clock">
+                    <span id="hours">00</span>
+                    <span id="minutes">00</span>
+                    <span id="seconds">00</span>
+                </div>
+                <div class="list1">
+                    <label for="placa-list" class="placa-v"></label>
+                    <select name="Veiculo" id="placa-list">
+                        <option id="selecion">---ESCOLHA O VEICULO---</option>
+                        <option value="strada">SAU8E19</option>
+                        <option value="car">SAR5T65</option>
+                        <option value="d-10">SAU7D96</option>
+                        <option value="sprinter">FDG3B85</option>
+                    </select>
+                </div>
+                
+
+                <div class="button-inicio">
+                    <button class="bt-in" type="submit">INICIAR O DIA!</button>
+                </div>
+            </header>
+        </form>
+
+        <form class="forms1">
+            <header>
+
+
+                <div class="list2">
+                    <label for="rota-list">Tipo de Rota:</label>
+                    <select name="rota" id="rota-list">
+                        <option value="" selected>---Escolha---</option>
+                        <option value="ent">Entrega</option>
+                        <option value="ret">Retirada</option>
+                        <option value="sub">Substituição</option>
+                        <option value="manut">Manutenção</option>
+                        <option value="trans">Trasferencia</option>
+                    </select>
+                </div>
+                <div class="contract">
+                    <input type="number" placeholder="Nº Contrato">
+                </div>
+
+                <div>
+                    Horario:
+                    <input type="time" name="" id="">
+
+                </div>
+
+                <div class="exit">
+                    <button type="submit">SAIDA</button>
+                </div>
+
+                <div class="arrival">
+                    <button type="submit">CHEGADA</button>
+                </div>
+
+
+            </header>
+
+
+        </form>
+
+        
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

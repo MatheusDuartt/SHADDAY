@@ -1,0 +1,161 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Concert One", sans-serif;
+    
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0 60px 0;
+    margin-top: 120px;
+}
+
+.claro-escuro{
+    display: flex;
+    height: 420px;
+    position: absolute;
+    
+}
+
+.container {
+    width: 420px;
+    background-image: url(fundo.jpg);
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    color: #fff;
+    padding: 30px, 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+    backdrop-filter: blur(10px);
+    
+
+
+}
+
+
+.container h1{
+    font-size: 80px;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(105, 220, 248), rgb(238, 31, 169));
+    -webkit-background-clip: text;
+    background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    margin-top: 30px;
+
+}
+
+.forms {
+    position: relative;
+    width: 90%;
+    height: 350px;
+    margin: 5px 20px;
+    padding: 30px 60px;
+    color: rgb(0, 0, 0);
+}
+
+.list1{
+    display: flex;
+    padding: 15px 50px;
+    font-size: 20px;
+    margin-left: -50px;
+
+}
+
+#selecion{
+    color: #fff;
+}
+
+.data{
+    display: flex;
+    gap: 15px;
+    margin-left: 50px;
+
+}
+
+.data span{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: aqua;
+}
+
+.data span:not(:last-child)::after{
+    content: '/';
+    display: flex;
+    align-items: center;
+    margin-right: -1px;
+    max-width: 25px;
+    
+
+    
+    color: aquamarine;
+}
+
+.clock{
+    display: flex;
+    gap: 20px;
+
+}
+
+.clock span{
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: aqua;
+
+}
+
+.clock span:not(:last-child)::after{
+    content: ':';
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+    margin-right: -15px;
+    max-width: -5px;
+    color: aquamarine;
+}
+
+#placa-list{
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 8px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    
+  
+}
+
+.button-inicio{
+    margin: center;
+    padding: 10px;
+    
+
+}
+
+.bt-in{
+    
+    margin-left: 30px;
+    padding: 5px 10px;
+    font-size: 25px;
+    border-radius: 25px;
+    margin-top: 40px;
+    
+}
+
+.forms1{
+    display: none;
+}
