@@ -12,9 +12,9 @@
 
 <body>
     <main class="container">
-        <form>
+        <form id="login">
 
-            <h1>Ka-Chow</h1>
+            <h1>LOGIN</h1>
             <div class="input-box">
                 <input type="email" placeholder="Usuario:">
                 <i class="bx bxs-user"></i>
@@ -36,10 +36,10 @@
             </div>
 
 
-            <button class="login" type="submit">Login</button>
+            <button class="login_button" type="submit">Iniciar</button>
 
             <div class="registre-link">
-                <p>Não tem uma conta? <a href="#">Cadastrar-se</a></p>
+                <p>Não tem uma conta? <a href="#" id="cadastro" onclick="">Cadastrar-se</a></p>
             </div>
 
 
@@ -47,6 +47,39 @@
 
         </form>
 
+        <form id="cadastre_se">
+
+            <h1>CADASTRO</h1>
+
+            <div class="input-box">
+                <input type="text" placeholder="Nome:">
+            </div>
+
+            <div class="input-box">
+                <input type="email" placeholder="Coloque seu melhor Email!">
+            </div>
+
+            <div class="input-box">
+                <input type="password" placeholder="Senha:">
+
+            </div>
+
+            <div class="input-box">
+                <input type="password" placeholder="Confirmar senha:">
+            </div>
+
+            <button class="login_button" type="submit">Cadastra</button>
+            
+            <div class="registre-link">
+                <p>Já tem uma conta? <a href="#" id="login_ret" onclick="">Login</a></p>
+            </div>
+            
+
+
+
+
+
+        </form>
     </main>
 
 </body>

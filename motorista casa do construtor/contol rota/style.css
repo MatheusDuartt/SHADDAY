@@ -1,0 +1,128 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Concert One", sans-serif;
+}
+
+body{
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    background-image: url(fundo.jpg);
+    margin: center;
+    
+
+}
+
+h1 {
+    font-size: 20px;
+    text-align:left;
+    margin-left: 30px;
+    margin-right: 100px;
+    background: linear-gradient(90deg, rgb(105, 220, 248), rgb(238, 31, 169));
+    -webkit-background-clip: text;
+    background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    margin-top: 30px
+    
+    
+}
+
+.barra-sup{
+    display: flex;
+    padding: 50px;
+}
+    
+.menu{
+    list-style:none;
+    border:1px solid #c0c0c0;
+    float:left;
+    
+}
+
+.menu li{
+        position:relative;
+        float:left;
+        border-right:1px solid #c0c0c0;
+}
+
+.menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+
+.menu li a:hover{
+background:#333;
+border-radius: 10px;
+color:#fff;
+box-shadow: blue(10px);
+-moz-box-shadow:0 3px 10px 0 #CCC;
+-webkit-box-shadow:0 3px 10px 0 #ccc;
+text-shadow:0px 0px 5px #fff;
+}
+
+.menu li  ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color:transparent rgba(red, green, blue, alpha);
+    box-shadow: blue(50px);
+    display:none;
+}
+
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+
+.menu li ul li{
+    border:1px solid #c0c0c0;
+    display:block;
+    width:150px;
+    
+}
+
+
+
+.forms {
+    position: relative;
+    width: 90%;
+    height: 350px;
+    margin: 5px 20px;
+    padding: 30px 60px;
+    color: rgb(0, 0, 0);
+}
+
+.list2{
+    display: flex;
+    padding: 15px 50px;
+    font-size: 20px;
+    margin-left: -50px;
+
+}
+
+#selecion {
+    
+    background-color: transparent;
+    box-shadow: rgb(32, 32, 32);
+    backdrop-filter: blur(10px);
+}
+
+.clock{
+    display: flex;
+    gap: 20px;
+
+}
+
+.clock span{
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #5553d4;
+
+}
+
+.clock span:not(:last-child)::after{
+    content: ':';
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+    margin-right: -15px;
+    max-width: -5px;
+    color: #5553d4;
+}

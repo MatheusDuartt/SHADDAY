@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AO SHADDAY</title>
+</head>
+
+<body>
+    <div class="barra-sup">
+
+     <h1>AO SHADDAY</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">O que fazemos?</a>
+                    <ul>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">SEO</a></li>
+                        <li><a href="#">Design</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Links</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <form class="forms">
+
+        <header>
+            <div class="clock">
+                <span id="hours">00</span>
+                <span id="minutes">00</span>
+
+            </div>
+
+            <div class="list2">
+                <label for="rota-list">Tipo de Rota:</label>
+                <select name="rota" id="rota-list">
+                    <option value="" selected>---Escolha---</option>
+                    <option value="ent">Entrega</option>
+                    <option value="ret">Retirada</option>
+                    <option value="sub">Substituição</option>
+                    <option value="manut">Manutenção</option>
+                    <option value="trans">Trasferencia</option>
+                </select>
+            </div>
+            <div class="contract">
+                <input type="number" placeholder="Nº Contrato">
+            </div>
+
+            <div class="exit">
+                <button type="submit">SAIDA</button>
+            </div>
+
+            <div class="arrival">
+                <button type="submit">CHEGADA</button>
+            </div>
+
+
+        </header>
+
+
+    </form>
+
+</body>
+<script src="script.js"></script>
+
+</html>
