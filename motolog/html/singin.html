@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/motorista casa do construtor/css/singin.css">
     <title>Ka-Chow</title>
-    <link rel="shortcut icon" href="kachow.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/motorista casa do construtor/imagens/kachow.png" type="image/x-icon">
 </head>
 
 <body>
@@ -16,20 +16,20 @@
 
             <h1>LOGIN</h1>
             <div class="input-box">
-                <input type="email" placeholder="Usuario:">
+                <input class="user" type="email" placeholder="Usuario:">
                 <i class="bx bxs-user"></i>
             </div>
 
 
             <div class="input-box">
-                <input type="password" placeholder="Senha:">
+                <input class="passUser" type="password" placeholder="Senha:">
                 <i class="bx bxs-lock-alt"></i>
             </div>
 
 
             <div class="remenber-forgot">
                 <label>
-                    <input type="checkbox">
+                    <input class="relembre" type="checkbox">
                     Lembrar senha
                 </label>
                 <a href="#">Esqueci a senha!</a>
@@ -39,7 +39,7 @@
             <button class="login_button" type="submit">Iniciar</button>
 
             <div class="registre-link">
-                <p>Não tem uma conta? <a href="#" id="cadastro" onclick="function mudarTela(cadastro)">Cadastrar-se</a></p>
+                <p>Não tem uma conta? <a href="#" id="cadastro" onclick="">Cadastrar-se</a></p>
             </div>
 
 
@@ -68,7 +68,7 @@
                 <input type="password" placeholder="Confirmar senha:">
             </div>
 
-            <button class="login_button" type="submit">Cadastra</button>
+            <button class="loginButton" type="submit">Cadastra</button>
             
             <div class="registre-link">
                 <p>Já tem uma conta? <a href="#" id="login_ret" onclick="">Login</a></p>
@@ -83,5 +83,5 @@
     </main>
 
 </body>
-
+    <script src="/motorista casa do construtor/js/singin.js"></script>
 </html>

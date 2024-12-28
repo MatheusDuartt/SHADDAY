@@ -13,7 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url(cdc.jpg);
+    background-image: url('/motorista casa do construtor/imagens/cdc.jpg');
     background-size: cover;
     background-position: center;
 }
